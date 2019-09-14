@@ -27,8 +27,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [-] Explain benefit(s) using `client-side routing`?
 > Answer: Client side routing allows us to preload data and/or assets to the user, so that 
 > when new data is requested, the site does not reload or make a request for all of the data, just > the data they need. 
-- [] What does AJAX stand for?
-> Answer:
+- [-] What does AJAX stand for?
+> Answer: Asynchronous JavaScript and XML
 - [-] What are `controlled components` in React?
 > Answer: Controlled components means that a certain element is accessible to React, that
 > we can use the data and pass it through to the components have those elements assigned to them.
