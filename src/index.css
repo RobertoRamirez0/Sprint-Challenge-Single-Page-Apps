@@ -14,10 +14,29 @@ main {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
+header h1 {
+  text-align: center;
+}
+
+ul li {
+  display: flex;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.welcome-page {
+  background: black;
+  color: white;
+}
+
 .grid-view {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .page-view {
@@ -27,13 +46,52 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-} */
+} 
 
-header h1 {
+.char-card {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 15px;
   text-align: center;
 }
+
+.loc-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  background: black;
+  color: white;
+  flex-direction: column;
+}
+
+.loc-card {
+  border: 1px solid dodgerblue;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.ep-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  background: black;
+  color: white;
+  flex-direction: column;
+}
+
+.ep-card {
+  border: 1px solid dodgerblue;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+
+
